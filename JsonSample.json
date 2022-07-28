@@ -1,0 +1,492 @@
+{
+    "body": {
+        "id": "bb2cfc3c-cc6a-47d2-af71-724dc66f5f61",
+        "policyNo": "300038768",
+        "clients": [{
+            "id": "8292353f-7546-4554-9f42-ecdb3a5f090f",
+            "externalIds": {
+                "customer_master": "EJdxg30k6RtypdR8Wj55f7",
+                "NATIONAL_ID": "160369752",
+                "document_ID": "a665acea-2a70-4169-b588-1943f99766d1"
+            },
+            "contactDetails": {
+                "EMAIL": {
+                    "channel": "EMAIL",
+                    "value": "n/a"
+                },
+                "phone": {
+                    "channel": "PHONE",
+                    "value": "87389953",
+                    "countryCode": "855"
+                },
+                "email": {
+                    "channel": "EMAIL",
+                    "value": "n/a"
+                },
+                "PHONE": {
+                    "channel": "PHONE",
+                    "value": "87389953",
+                    "countryCode": "855"
+                }
+            },
+            "addressDetails": {
+                "Current": {
+                    "line1": "Phnom Penh",
+                    "country": "Cambodia",
+                    "countryCode": "KH"
+                }
+            },
+            "firstName": "SEV",
+            "surName": "Mala",
+            "dob": "1989-03-18",
+            "sex": "FEMALE",
+            "occupation": {
+                "desc": "Factory Worker"
+            }
+        }],
+        "product": {
+            "code": "S00704"
+        },
+        "productOptions": [{
+            "id": "96d13168-e011-489d-8653-018ba15a4db9",
+            "product": {
+                "code": "S00704",
+                "fullName": "PRUសុវត្ថិភាពខ្ញុំ"
+            },
+            "totalPremium": 24.24,
+            "totalSumAssured": 2500,
+            "commencementDate": "2021-12-09",
+            "status": "INFORCE",
+            "riskCessDate": "2022-12-08",
+            "options": {
+                "isMinor": "false",
+                "planName": "Silver Pack",
+                "pulseUniqueIdName": "NATIONAL_ID",
+                "noOfBeneficiaries": "1",
+                "referralCode": "69001140"
+            },
+            "productComponentOptions": [
+            {
+                "id": "f285833d-43f9-4d11-bb01-80b68f2ee0eb",
+                "component": {
+                    "id": "37da9380-4fdf-453e-8a27-015b67295c4e",
+                    "name": "TPD Benefit",
+                    "code": "S00312",
+                    "auditDetail": {
+                        "createTime": "2021-12-09T09:43:49Z",
+                        "updateTime": "2021-12-09T09:43:49Z"
+                    }
+                },
+                "sumAssured": 2500,
+                "riskCessDate": "2022-12-08",
+                "commencementDate": "2021-12-09",
+                "options": {
+                    "totalSumAssured": "2500",
+                    "claimTemplateType": "TPD",
+                    "claimantRole": "Beneficiary"
+                },
+                "lifeAssured": {
+                    "id": "b4ac6869-3448-40bb-9822-573f95b2a57f"
+                },
+                "status": "INFORCE",
+                "premiumStatus": "ANNUAL",
+                "riderFlag": "BASEPLAN",
+                "auditDetails": {
+                    "createTime": "2021-12-09T09:43:49Z",
+                    "updateTime": "2021-12-09T09:44:57Z"
+                }
+            }, 
+            {
+                "id": "95476e01-1206-4c36-a6a8-8a6e4f901660",
+                "component": {
+                    "id": "a4da45eb-49df-4e32-afa8-18e84ba94a3f",
+                    "name": "Hospital Admission per day",
+                    "code": "S00313",
+                    "auditDetail": {
+                        "createTime": "2021-12-09T09:43:49Z",
+                        "updateTime": "2021-12-09T09:43:49Z"
+                    }
+                },
+                "sumAssured": 25,
+                "riskCessDate": "2022-12-08",
+                "commencementDate": "2021-12-09",
+                "options": {
+                    "totalSumAssured": "25",
+                    "benefitUnit": "perDay",
+                    "claimTemplateType": "HOSPITALIZATION",
+                    "claimantRole": "LifeAssured"
+                },
+                "lifeAssured": {
+                    "id": "b4ac6869-3448-40bb-9822-573f95b2a57f"
+                },
+                "status": "INFORCE",
+                "premiumStatus": "ANNUAL",
+                "riderFlag": "RIDER",
+                "auditDetails": {
+                    "createTime": "2021-12-09T09:43:49Z",
+                    "updateTime": "2021-12-09T09:44:57Z"
+                }
+            }, {
+                "id": "c4535140-09a1-4b38-9300-5feb14cbad7c",
+                "component": {
+                    "id": "714417ee-0fc0-470f-8a49-d3ad6990f30c",
+                    "name": "Loss of limb",
+                    "code": "S00314",
+                    "auditDetail": {
+                        "createTime": "2021-12-09T09:43:49Z",
+                        "updateTime": "2021-12-09T09:43:49Z"
+                    }
+                },
+                "sumAssured": 1250,
+                "riskCessDate": "2022-12-08",
+                "commencementDate": "2021-12-09",
+                "options": {
+                    "totalSumAssured": "1250",
+                    "claimTemplateType": "DISMEMBERMENT",
+                    "claimantRole": "LifeAssured"
+                },
+                "lifeAssured": {
+                    "id": "b4ac6869-3448-40bb-9822-573f95b2a57f"
+                },
+                "status": "INFORCE",
+                "premiumStatus": "ANNUAL",
+                "riderFlag": "RIDER",
+                "auditDetails": {
+                    "createTime": "2021-12-09T09:43:49Z",
+                    "updateTime": "2021-12-09T09:44:57Z"
+                }
+            }, {
+                "id": "98570598-244f-483d-9b27-c09068ed6270",
+                "component": {
+                    "id": "a786b279-0f4f-4b75-baa5-aeec6a2a113e",
+                    "name": "Bone Fracture",
+                    "code": "S00351",
+                    "auditDetail": {
+                        "createTime": "2021-12-09T09:43:49Z",
+                        "updateTime": "2021-12-09T09:43:49Z"
+                    }
+                },
+                "sumAssured": 200,
+                "riskCessDate": "2022-12-08",
+                "commencementDate": "2021-12-09",
+                "options": {
+                    "totalSumAssured": "200",
+                    "claimTemplateType": "MEDICALREIMBURSEMENT",
+                    "claimantRole": "LifeAssured"
+                },
+                "lifeAssured": {
+                    "id": "b4ac6869-3448-40bb-9822-573f95b2a57f"
+                },
+                "status": "INFORCE",
+                "premiumStatus": "ANNUAL",
+                "riderFlag": "RIDER",
+                "auditDetails": {
+                    "createTime": "2021-12-09T09:43:49Z",
+                    "updateTime": "2021-12-09T09:44:57Z"
+                }
+            }, {
+                "id": "4ab5ea49-d9c7-4260-bf16-0e44869a2724",
+                "component": {
+                    "id": "f98b0265-c5e1-4ec7-a47f-868871009bf2",
+                    "name": "Accidental Death Benefit",
+                    "code": "S00371",
+                    "auditDetail": {
+                        "createTime": "2021-12-09T09:43:49Z",
+                        "updateTime": "2021-12-09T09:43:49Z"
+                    }
+                },
+                "sumAssured": 2500,
+                "riskCessDate": "2022-12-08",
+                "commencementDate": "2021-12-09",
+                "options": {
+                    "totalSumAssured": "2500",
+                    "claimTemplateType": "ACCIDENTALDEATH",
+                    "claimantRole": "Beneficiary"
+                },
+                "lifeAssured": {
+                    "id": "b4ac6869-3448-40bb-9822-573f95b2a57f"
+                },
+                "status": "INFORCE",
+                "premiumStatus": "ANNUAL",
+                "riderFlag": "BASEPLAN",
+                "auditDetails": {
+                    "createTime": "2021-12-09T09:43:49Z",
+                    "updateTime": "2021-12-09T09:44:57Z"
+                }
+            }],
+            "auditDetails": {
+                "createTime": "2021-12-09T09:43:49Z",
+                "updateTime": "2021-12-09T09:44:57Z"
+            }
+        }],
+        "paymentOption": {
+            "currency": "USD",
+            "mode": "MANUAL",
+            "autoRenewal": false,
+            "amount": 24.24,
+            "frequency": "Annual"
+        },
+        "contractDate": "2021-12-09",
+        "sourceChannel": {
+            "channel": "pulse",
+            "medium": "APP"
+        },
+        "inceptionDate": "2021-12-09",
+        "firstIssueDate": "2021-12-09",
+        "endDate": "2022-12-08",
+        "status": "INFORCE",
+        "sourceOfBusiness": "DIGITAL",
+        "premiumStatus": "SINGLEPAY",
+        "billingDetail": {
+            "id": "ead68c8e-caf8-4fab-9e4c-281ff84e3d5f",
+            "policy": {
+                "id": "bb2cfc3c-cc6a-47d2-af71-724dc66f5f61",
+                "policyNo": "300038768",
+                "proposal": {
+                    "id": "0c32664b-5e79-4ef0-8a79-63884482cc53",
+                    "proposalNo": "PL0041639"
+                }
+            },
+            "startDate": "20211209",
+            "auditDetail": {
+                "createTime": "2021-12-09T09:43:49Z",
+                "updateTime": "2021-12-09T09:44:57Z"
+            }
+        },
+        "proposal": {
+            "id": "0c32664b-5e79-4ef0-8a79-63884482cc53",
+            "proposalNo": "PL0041639",
+            "agent": {
+                "code": "69001140"
+            },
+            "payments": {
+                "premium": {
+                    "txRef": "vIDAoTiCtT1SCqFnZVArF2",
+                    "paymentDate": "2021-12-09T16:43:58.874+07:00",
+                    "paymentMethod": {
+                        "payMethodCode": {
+                            "pgCode": "ACLEDA"
+                        }
+                    },
+                    "attributes": {
+                        "serviceProductCode": "S00704",
+                        "firstName": "SEV MALA",
+                        "pgTransactionId": "211209094358874",
+                        "surName": "Mala",
+                        "serviceCode": "POLICY",
+                        "namespace": "KH",
+                        "paymentTokenid": "j9lXBQRm4gmZrssi9G6UUOvPz+M=",
+                        "lastUpdatedTime": "2021-12-09T16:44:56.91+07:00",
+                        "sessionid": "THcrbAImNAWxTmuWuXXq4Pn0ypI=",
+                        "lang": "EN",
+                        "pgCode": "ACLEDA",
+                        "timerId": "PULSEPAY_91220219440_497_vIDAoTiCtT1SCqFnZVArF2"
+                    }
+                }
+            }
+        },
+        "lifeAssured": [{
+            "id": "8292353f-7546-4554-9f42-ecdb3a5f090f",
+            "externalIds": {
+                "customer_master": "EJdxg30k6RtypdR8Wj55f7",
+                "NATIONAL_ID": "160369752",
+                "document_ID": "a665acea-2a70-4169-b588-1943f99766d1"
+            },
+            "contactDetails": {
+                "EMAIL": {
+                    "channel": "EMAIL",
+                    "value": "n/a"
+                },
+                "phone": {
+                    "channel": "PHONE",
+                    "value": "87389953",
+                    "countryCode": "855"
+                },
+                "email": {
+                    "channel": "EMAIL",
+                    "value": "n/a"
+                },
+                "PHONE": {
+                    "channel": "PHONE",
+                    "value": "87389953",
+                    "countryCode": "855"
+                }
+            },
+            "addressDetails": {
+                "Current": {
+                    "line1": "Phnom Penh",
+                    "country": "Cambodia",
+                    "countryCode": "KH"
+                }
+            },
+            "firstName": "SEV",
+            "surName": "Mala",
+            "dob": "1989-03-18",
+            "sex": "FEMALE",
+            "occupation": {
+                "desc": "Factory Worker"
+            }
+        }],
+        "documents": [{
+            "id": "3def1016-3d38-4ffd-b3ed-23b48ec9c80e",
+            "type": "PolicyPDF",
+            "desc": "FAQ for PRUMySafety",
+            "name": "FAQ for PRUMySafety",
+            "filename": "FAQ for PRUMySafety.pdf",
+            "contentType": "application/pdf",
+            "tags": {
+                "staticDocTag": "S00704",
+                "productCode": "S00704"
+            },
+            "version": "6.0",
+            "contentLength": 64,
+            "auditDetail": {
+                "createTime": "2021-08-20T20:58:17.297+07:00",
+                "updateTime": "2021-08-20T20:58:17.297+07:00"
+            }
+        }, {
+            "id": "4fbd8be4-afc2-4178-a11a-9fdb60adb059",
+            "type": "PolicyPDF",
+            "desc": "T&C PRUMySafety",
+            "name": "T&C PRUMySafety",
+            "filename": "T&C PRUMySafety.pdf",
+            "contentType": "application/pdf",
+            "tags": {
+                "staticDocTag": "S00704",
+                "productCode": "S00704"
+            },
+            "version": "6.0",
+            "contentLength": 367842,
+            "auditDetail": {
+                "createTime": "2021-07-23T16:48:15.122+07:00",
+                "updateTime": "2021-07-23T16:48:15.122+07:00"
+            }
+        }, {
+            "id": "df145e68-b5da-467d-b91a-5ac1b87ac486",
+            "type": "PolicyPDF",
+            "desc": "Product Disclosure Sheet",
+            "name": "Product Disclosure Sheet",
+            "filename": "Product Disclosure Sheet.pdf",
+            "contentType": "application/pdf",
+            "tags": {
+                "staticDocTag": "S00704",
+                "productCode": "S00704"
+            },
+            "version": "6.0",
+            "contentLength": 444139,
+            "auditDetail": {
+                "createTime": "2021-07-16T23:10:46.961+07:00",
+                "updateTime": "2021-07-16T23:10:46.962+07:00"
+            }
+        }],
+        "questionAnswerGroup": [{
+            "id": "QG1",
+            "questionAnswers": [{
+                "question": {
+                    "id": "Q1",
+                    "question": "Data is correct and I have read, understood and agreed to the applicable Term & Conditions of the insurance contract of Basic plan PRUសុវត្ថិភាពខ្ញុំ and Rider អត្ថប្រយោជន៍គ្រោះថ្នាក់លើដងផ្លូវ. I agree to share these details with PULSE."
+                },
+                "answers": [{
+                    "value": "Yes"
+                }]
+            }]
+        }],
+        "nextPremiumDue": "2022-12-08",
+        "nextBillingDue": "2022-11-23",
+        "customerRoles": [{
+            "id": "18ec1002-f2c7-4b22-a224-5fce2266fa90",
+            "customer": {
+                "id": "8292353f-7546-4554-9f42-ecdb3a5f090f",
+                "externalIds": {
+                    "customer_master": "EJdxg30k6RtypdR8Wj55f7",
+                    "NATIONAL_ID": "160369752",
+                    "document_ID": "a665acea-2a70-4169-b588-1943f99766d1"
+                },
+                "contactDetails": {
+                    "EMAIL": {
+                        "channel": "EMAIL",
+                        "value": "n/a"
+                    },
+                    "phone": {
+                        "channel": "PHONE",
+                        "value": "87389953",
+                        "countryCode": "855"
+                    },
+                    "email": {
+                        "channel": "EMAIL",
+                        "value": "n/a"
+                    },
+                    "PHONE": {
+                        "channel": "PHONE",
+                        "value": "87389953",
+                        "countryCode": "855"
+                    }
+                },
+                "addressDetails": {
+                    "Current": {
+                        "line1": "Phnom Penh",
+                        "country": "Cambodia",
+                        "countryCode": "KH"
+                    }
+                },
+                "firstName": "SEV",
+                "surName": "Mala",
+                "dob": "1989-03-18",
+                "sex": "FEMALE",
+                "occupation": {
+                    "desc": "Factory Worker"
+                }
+            },
+            "role": "OWNER"
+        }, {
+            "id": "33545f8c-4ed9-45fe-bef9-fc033b456efe",
+            "customer": {
+                "id": "8292353f-7546-4554-9f42-ecdb3a5f090f",
+                "externalIds": {
+                    "customer_master": "EJdxg30k6RtypdR8Wj55f7",
+                    "NATIONAL_ID": "160369752",
+                    "document_ID": "a665acea-2a70-4169-b588-1943f99766d1"
+                },
+                "contactDetails": {
+                    "EMAIL": {
+                        "channel": "EMAIL",
+                        "value": "n/a"
+                    },
+                    "phone": {
+                        "channel": "PHONE",
+                        "value": "87389953",
+                        "countryCode": "855"
+                    },
+                    "email": {
+                        "channel": "EMAIL",
+                        "value": "n/a"
+                    },
+                    "PHONE": {
+                        "channel": "PHONE",
+                        "value": "87389953",
+                        "countryCode": "855"
+                    }
+                },
+                "addressDetails": {
+                    "Current": {
+                        "line1": "Phnom Penh",
+                        "country": "Cambodia",
+                        "countryCode": "KH"
+                    }
+                },
+                "firstName": "SEV",
+                "surName": "Mala",
+                "dob": "1989-03-18",
+                "sex": "FEMALE",
+                "occupation": {
+                    "desc": "Factory Worker"
+                }
+            },
+            "role": "LIFEASSURED"
+        }],
+        "auditDetail": {
+            "createTime": "2021-12-09T09:44:57Z",
+            "updateTime": "2021-12-09T09:44:57Z"
+        }
+    }
+}
